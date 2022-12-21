@@ -13,15 +13,16 @@
     <div class="header">
             <nav>
                 <h1 class="myName">Todd <span>Guerette</span></h1>
+                <img class="logo" src="./assets/imgs/Logo.png">
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Work</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#myApps">My Work</a></li>
+                    <li><a href="#footer">Contact Me</a></li>
                 </ul>
             </nav>
     </div>
 
-    <section class="about">
+    <section class="about" id="aboutMe">
         <div class="outline">
             <img src="assets/imgs/outline.png">
             <div class="aboutMe-text">
@@ -31,11 +32,11 @@
         </div>
     </section> 
 
-    <section class="works">
+    <div class="works" id="myApps">
         <h2 class="myWorks">My <span>Works:</span></h2>
      <div class="body">
         <div class="card">
-            <img src="assets/imgs/Horiseon.PNG">
+            <a href="https://bucket12.github.io/Horiseon-Refractor-Challenge/"><img src="assets/imgs/Horiseon.PNG"></a>
             <h3>Horiseon Refractory:</h3>
             <p>In this challenge I added html to help with accessibility features for the Horiseon Company.</p>
         </div>
@@ -50,7 +51,18 @@
             <p>Check back soon for new updates weekly!</p>
         </div>
      </div>
-    </section>
+    </div>
+
+    <footer class="foot" id="footer">
+        <h2>Contact <span>Me:</span></h2>
+        <div>
+            <ul>
+                <li>555.555<span>.5555</span></li>
+                <li>myemail19@<span>email.web</span></li>
+                <li><a href="https://github.com/Bucket12">Git<span>Hub</span></a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
