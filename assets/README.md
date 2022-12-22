@@ -6,7 +6,7 @@ This application is used to display works created by myself in an organized fash
 
 ## Installation
 
-Visit: (can't be provided now as website has not been deployed) and the website should run.
+Visit: https://bucket12.github.io/First-Three-Month-Portfolio/ and the website should run.
 
 ## Usage
 
